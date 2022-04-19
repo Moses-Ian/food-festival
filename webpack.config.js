@@ -15,6 +15,7 @@ const config = {
   output: {
     filename: '[name].bundle.js',
     path: __dirname + '/dist'
+		// publicPath: 'https://moses-ian.github.io/food-festival/'
   },
   module: {
     rules: [
@@ -54,7 +55,7 @@ const config = {
       description: "An app that allows you to view upcoming food events.",
       background_color: "#01579b",
       theme_color: "#ffffff",
-			start_url: "..",
+			// start_url: ".",
       fingerprints: false,
       inject: false,
       icons: [{

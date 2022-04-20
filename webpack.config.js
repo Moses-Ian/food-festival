@@ -55,7 +55,8 @@ const config = {
       description: "An app that allows you to view upcoming food events.",
       background_color: "#01579b",
       theme_color: "#ffffff",
-			// start_url: ".",
+			// start_url: "..",		// bug -> this doesn't work. manually set this in manifest.json after `npm run build`
+			start_url: "../index.html",		// i saw this after i made the above comment. currently untested
       fingerprints: false,
       inject: false,
       icons: [{
